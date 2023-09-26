@@ -21,5 +21,5 @@ if szam1=='olló' and szam2=='papir' or szam1=='papir' and szam2=='olló':
 if szam1=='kő' and szam2=='olló' or szam1=='olló' and szam2=='kő':
     print("A kő nyert!")
 #kő papír
-if szam1=="kő " and szam2=="papir" or szam1=='papir' and szam2=="kő":
+if szam1=='kő ' and szam2=='papir' or szam1=='papir' and szam2=='kő':
     print("A papír nyert!")
