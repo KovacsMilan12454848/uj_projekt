@@ -1,0 +1,34 @@
+import random
+
+sajat_szamok=[]
+gep_szamok=[]
+
+i=0
+talalatok=0
+print('Adj meg 5-számot a lottóhoz (ha egy számot már beirtál akkor újat kér.így csak 5-szám megy be):')
+
+for x in range(5):
+    while len(sajat_szamok) < 5:
+        szamok = int(input('Adj meg 5-számot a lottóhoz :'))
+        if szamok not in sajat_szamok:
+            sajat_szamok.append(szamok)
+
+
+print(f'A saját-számaok:{sajat_szamok}')
+
+for x in range(5):
+   while len(gep_szamok) < 5: 
+    szam = random.randint(1,91)
+    if szam not in gep_szamok:
+        gep_szamok.append(szam)
+print(f'A gép-számai:{gep_szamok}')
+
+
+while i<=4:
+    b=0
+    while b<=4:
+        if gep_szamok[i]==sajat_szamok[b]:
+            talalatok+=1
+        b+=1
+    i+=1
+print('Ennyi találatod van:',talalatok)
