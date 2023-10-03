@@ -24,7 +24,6 @@ for x in range(5):
         gep_szamok.append(szam)
 print(f'A gép-számai:{gep_szamok}')
 
-
 while i<=4:
     b=0
     while b<=4:
