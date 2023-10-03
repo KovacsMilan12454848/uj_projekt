@@ -17,6 +17,7 @@ for x in range(5):
 
 print(f'A saját-számaok:{sajat_szamok}')
 
+
 for x in range(5):
    while len(gep_szamok) < 5: 
     szam = random.randint(1,91)
