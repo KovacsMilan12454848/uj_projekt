@@ -7,6 +7,7 @@ i=0
 talalatok=0
 print('Adj meg 5-számot a lottóhoz (ha egy számot már beirtál akkor újat kér.így csak 5-szám megy be):')
 
+
 for x in range(5):
     while len(sajat_szamok) < 5:
         szamok = int(input('Adj meg 5-számot a lottóhoz :'))
